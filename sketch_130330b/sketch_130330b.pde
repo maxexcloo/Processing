@@ -1,4 +1,4 @@
-// Sudoko Board - Rectangle Drawing (Functions) (Week 5, Question 6) - 29-03-2013
+// Sudoko Board - Rectangle Drawing (Week 5, Question 6) - 29-03-2013
 // Max Schaefer (43263798)
 
 // Set Board Margin Variable
@@ -36,29 +36,29 @@ void drawSquare(int x, int y, int type) {
   if(type == 1) { // Small Square
     // Set Fill
     fill(255);
-    
+
     // Set Stroke Shade
     stroke(204);
-    
+
     // Set Stroke Weight
     strokeWeight(1);
-    
+
     // Set Size Variable
     size = 30;
   } else if(type == 2) { // Large Square
     // Remove Fill
     noFill();
-    
+
     // Set Stroke Shade
     stroke(0);
-    
+
     // Set Stroke Weight
     strokeWeight(3);
-    
+
     // Set Size Variable
     size = 90;
   }
-  
+
   // Draw Rectangle
   rect(x, y, size, size);
 }
