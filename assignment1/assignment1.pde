@@ -1,4 +1,4 @@
-// Assigment 1 - 15-03-2013
+// Assignment 1 - 15-03-2013
 // Max Schaefer (43263798)
 
 // Initialise Variables

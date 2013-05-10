@@ -6,9 +6,11 @@ This repository contains code I've created as part of my computing course. Use i
 Descriptions
 ============
 
-**Assigments**
+**Assignments**
 
- + **assigment1:** *Assigment 1 - 15-03-2013*
+ + **assignment1:** *Assignment 1 - 15-03-2013*
+ + **assignment2:** *Assignment 2 - 05-05-2013 (Pending)*
+ + **assignment3:** *Assignment 3 - 10-05-2013 (Pending)*
 
 **Weekly Tasks**
 
@@ -23,3 +25,4 @@ Descriptions
  + **sketch_130405a:** *Area Checking Circle Drawer (Week 6, Question 5) - 05-04-2013*
  + **sketch_130412a:** *Drag & Drop Rectangle (Week 7, Question 5) - 12-04-2013*
  + **sketch_130503a:** *Grid With Bouncing Balls (Week 8, Question 6) - 03-05-2013*
+ + **sketch_130510a:** *Moving Human (Week 9, Question 6) - 10-05-2013*
