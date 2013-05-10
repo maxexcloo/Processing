@@ -17,18 +17,10 @@ float cellHeight = HEIGHT/gridRows;
 int ballSize = 50;
 
 // Set Variables For Balls (Specific)
-color[] ballColour = {
-	color(255, 0, 0), color(0, 255, 0), color(0, 0, 255), color(0)
-};
-int[] ballDirection = {
-	1, 1, 1, 1
-};
-float[] ballPositionX = {
-	cellWidth*0, cellWidth*1, cellWidth*2, cellWidth*3
-};
-float[] ballPositionY = {
-	cellHeight*0, cellHeight*1, cellHeight*2, cellHeight*3
-};
+color[] ballColour = {color(255, 0, 0), color(0, 255, 0), color(0, 0, 255), color(0)};
+int[] ballDirection = {1, 1, 1, 1};
+float[] ballPositionX = {cellWidth*0, cellWidth*1, cellWidth*2, cellWidth*3};
+float[] ballPositionY = {cellHeight*0, cellHeight*1, cellHeight*2, cellHeight*3};
 
 // Setup Function - Run Once At Program Start
 void setup() {
@@ -87,15 +79,13 @@ void drawGrid() {
 	stroke(0);
 
 	// Draw Columns Through Loop
-	for (int column = 1; column < gridColumns; column++) {
+	for (int column = 1; column < gridColumns; column++)
 		// Draw Column
 		line(cellWidth*column, 0, cellWidth*column, HEIGHT);
-	}
 
 	// Draw Rows Through Loop
-	for (int row = 1; row < gridRows; row++) {
+	for (int row = 1; row < gridRows; row++)
 		// Draw Row
 		line(0, cellHeight*row, WIDTH, cellHeight*row);
-	}
 }
 
