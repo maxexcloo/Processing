@@ -12,19 +12,19 @@ int backgroundShade = 255;
 
 // Setup Function
 void setup() {
-  // Set Window Size
-  size(200, 200);
-  
-  // Set Background Shade
-  background(backgroundShade);
+	// Set Window Size
+	size(200, 200);
+
+	// Set Background Shade
+	background(backgroundShade);
 }
 
 // Draw Function
 void draw () {
-  // Set Fill Colour
-  fill(255, 175, 87);
-  
-  // Draw Ellipse Parameters From Variables
-  ellipse(ellipsePosition, ellipsePosition, ellipseSize*2, ellipseSize*2);
+	// Set Fill Colour
+	fill(255, 175, 87);
+
+	// Draw Ellipse Parameters From Variables
+	ellipse(ellipsePosition, ellipsePosition, ellipseSize*2, ellipseSize*2);
 }
 
