@@ -1,0 +1,17 @@
+=======================
+== Optional Features ==
+=======================
+
+Optional features can be enabled or disabled by setting the optionalEnable variable in draw() to true or false respectively.
+This boolean will fully enable or disable all optional features.
+
+======================
+== Features Include ==
+======================
+
+ + Resizable Window (Standard Window Resizing Controls, Tested On Arch Linux & Windows)
+ + Ability To Reset Window (Space On Keyboard)
+ + Ability To Add/Remove Rows/Columns On The Fly, Resets Window If Window Is Smaller Than Current Keyboard/Mouse Selection (Page Up adds Row, Page Down removes Row, End adds Column, Home removes Column)
+ + Ability To Click And Drag (Standard Click & Drag)
+
+All other required features from part 1, 2 and 3 are included (excepting the random colours as they had to be removed to complete part 3).
