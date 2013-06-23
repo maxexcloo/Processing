@@ -27,8 +27,5 @@ Descriptions
  + **sketch_130503a:** *Grid With Bouncing Balls (Week 8, Question 6) - 03-05-2013*
  + **sketch_130510a:** *Moving Human (Week 9, Question 6) - 10-05-2013*
  + **sketch_130519a:** *Ball Quadrants (Week 10, Question 5) - 17-05-2013*
-<<<<<<< HEAD
  + **sketch_130602a:** *Read File (Week 12, Question 3) - 31-05-2013*
-=======
  + **sketch_130524a:** *Random Colour Array Grid (Week 11, Question 3) - 24-05-2013*
->>>>>>> a0666a4a6325b487eae05075a8c2b80c31a71002
